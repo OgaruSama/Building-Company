@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bıtırık İnşaat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ae1c605129.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">SERVİCES</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Bıtırık Building Company</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et sed voluptates deserunt voluptatum <br> placeat nostrum unde laborum asperiores doloremque cum?</p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+
+    <section class="about">
+        <h1>About Us</h1>
+        <div class="about-col">
+            <p>Regardless of a project’s complexity or the challenge it may present, Bıtırık guarantees innovative solutions that will exceed the technical, operational, and functional requirements of each project. Combining strong leadership, sound management practices, the highest safety standards, along with our wide range of technical capabilities, we pride ourselves on the quality of product delivered, timely completion, adherence to budget, and, most importantly, client satisfaction!</p>
+            <p>We collaborate with clients at each stage of development and, depending on your requirements, can serve as your Design-Build Partner, Construction Manager, or Program Manager. We strive to create lasting value by offering high quality and cost effective solutions. This focus has helped propel Bıtırık into one of the fastest growing construction companies in the nation.As an industry leader, we have an absolute commitment to safety for our employees, subcontractors, owners and the general public. Our Safety360°program focus, Everybody, Everywhere, Everyday, is an ingrained company mentality both on the job and in our own homes. Bıtırık has been a Platinum or Gold level STEP Award recipient each year since 2004. We also have been a participant in and recipient of the OSHA SHARP designation each year since 2009.</p>
+        </div>
+    </section>
+
+    <section class="services">
+        <h1>Our Services</h1>
+        <p>Our services span the full lifecycle of construction -starting with site evalutions and preconstruction through to commissioning, close-out, and beyond.</p>
+        <div class="row">
+            <div class="service-col">
+                <h3>Design Build</h3>
+                <p>The Design-Build method is a team effort to deliver a cost-effective, turnkey project. Owners select the architect and contractor as a team that works in tandem under a single contract with one point of contact for the project. The team effort begins with the concept and permeates the entire project, from the design phase, through construction, to completion. In addition to saving time and money, this approach promotes collaboration between the owners, designers and builders.</p>
+            </div>
+            <div class="service-col">
+                <h3>Costruction Management At Risk (CMAR) </h3>
+                <p>The Construction Manager at Risk delivery method fosters collaboration and focuses the entire project team (owner, architect and contractor) on finding the best solutions for the project. As a Construction Manager, Bıtırık has the responsibility for budget control, constructability review, and coordinating all subcontractor procurement and management, while guaranteeing owners a maximum price for construction of the project. While the owner holds the design and construction contracts separately, Bıtırık serves the owner for both the design and construction phases. By working in concert with the architect/engineer early on, Bıtırık can offer valuable expertise when it comes to costs, scheduling and delivery methods, saving our owners time and money. Then, throughout the duration of the project, Bıtırık serves as the single point of responsibility for the project’s successful delivery.</p>
+            </div>
+            <div class="service-col">
+                <h3>Agency Construction Management</h3>
+                <p>While serving as Agency Construction Manager, Bıtırık steps in as the “agent” for the owner throughout every stage of the project. During the design phase, we provide input to the architect/engineer and owner regarding cost estimates, best use of available funds, project scheduling, construction quality, contracting, procurement and other aspects of the project. Unlike CM at Risk or Design-Build, the owner contracts directly with the contractor(s) for the construction phase, with Bıtırık overseeing performance, quality and schedule.</p>
+            </div>
+        </div>
+    </section>
+    <section class="cta">
+        <h1>Contact</h1>
+        <a href="" class="hero-btn">Contact Us</a>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    
+
+</body>
+</html>
